@@ -1,0 +1,92 @@
+
+
+.top {
+    display:flex;
+    text-transform: uppercase;   
+    background-color: #aed9e6; 
+    height: 50px;
+    text-align: center;
+    color: #2f2bf8;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    display:flex;
+    text-transform: uppercase;    
+    background-color: #aed9e6; 
+    height: 50px;
+    text-align: center;
+    color: #2f2bf8;
+    align-items: center;
+    justify-content: center;
+}
+.both {
+    display:flex;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0e78d;
+    padding: 20px;
+}
+
+.center {
+    text-align: justify;
+    padding: 20px;
+    background-image: url(../media/football_PNG52792.png);
+    background-position: right;
+    background-repeat: repeat-y;
+    flex: 2;
+
+}
+
+
+img {
+    width: 400px;
+    text-align: left;
+    display: block;
+    float: left;
+    padding-right: 20px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    padding: 10px;
+    background-color: lightgreen;
+    border: solid green 1px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 70px;
+    text-align: center;
+}
+
+iframe {
+    width: 370px;
+    height: 315px;
+}
+
+
+@media screen and (max-width: 600px){
+    .bottom, .top { 
+        display: none
+    };
+    
+    .left {
+        background-color: #fff;
+    }
+
+
+}
+video {
+    width: 370px;
+    height: 315px;
+    
+}
