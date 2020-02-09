@@ -43,6 +43,11 @@
 
 }
 
+video {
+    width: 360px;
+    height: 315px;
+    
+}
 
 img {
     width: 400px;
@@ -77,16 +82,22 @@ iframe {
 @media screen and (max-width: 600px){
     .bottom, .top { 
         display: none
-    };
+    }
     
+    .both {
+        flex-direction: column-reverse;
+        
+    }
+    .center {
+        background-image: none;
+    }
     .left {
         background-color: #fff;
     }
+    li {
+        list-style-type: none;
+        display: inline-block;
+    }
+}
 
 
-}
-video {
-    width: 370px;
-    height: 315px;
-    
-}
